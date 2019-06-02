@@ -82,9 +82,9 @@ for name, data in iteritems(tasks):
 
 
 ## print final latex string
-print('{:17} & {} \\\\  % LaTeX 1 for Table 1 and 2'.format(fname, latex1[:-2]))
+print('{:17} & {} \\\\  % LaTeX results: P/R/F1 and %of OOV words, and finally: number of word pairs which contain OOV words'.format(fname, latex1[:-2]))
 ## pairs left
-print('{:17} & {} \\\\  % LaTeX 2 for Table 3 and 4'.format(fname, latex2[:-2]))
+print('{:17} & {} \\\\  % LaTeX results: P/R/F1 and %of OOV words, and finally: number of in-vocabulary word pairs'.format(fname, latex2[:-2]))
 
 
 #      Kyu-w2v            & 0.252~~0.193~~0.219          & 38.5~~217 & 0.234~~0.220~~0.227          & 48.6~~351 & 0.263~~0.296~~0.278          & 31.6~~502   &   0.497~~0.481~~0.489           & 30.8~~34 \\ 
