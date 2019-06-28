@@ -425,6 +425,15 @@ def evaluate_similarity(w, X, y, tokenize_oov_words_with_deepcut=False, filter_n
         B = np.vstack(w.get(word, mean_vector) for word in X[:, 1])
         scores = np.array([v1.dot(v2.T)/(np.linalg.norm(v1)*np.linalg.norm(v2)) for v1, v2 in zip(A, B)])
 
+    ## insert new code here
+    # print(X)
+    # print(scores)
+    # print(scores.shape)
+    # import sys; sys.exit()
+
+    # if include_structured_sources: # given as argv when calling the script?
+	#   scores = add_structured_info(X, scores) # call to function outside  
+
 
     # wohlg: original version only returned Spearman 
     # wohlg: we added Pearson and other information 
