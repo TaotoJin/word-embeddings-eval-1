@@ -34,12 +34,12 @@ Please cite our work::
 
     The preprint is found here: `https://arxiv.org/abs/1904.04307`.
 
-In the work mentioned about, we evaluate the following embeddings:
-    * Thai2vec: `https://github.com/cstorm125/thai2fit` 
-    * ft-wiki: `https://github.com/kobkrit/nlp_thai_resources#pre-trained-word-vectors`
-    * Kyu-ft and Kyu-w2v: `https://github.com/Kyubyong/wordvectors`
-    * fastText `https://fasttext.cc/docs/en/crawl-vectors.html`
-    * BPEmb Thai models:  `https://github.com/bheinzerling/bpemb`
+In the work mentioned above, we evaluate the following embeddings:
+    * Thai2vec (Pretrained language model based on Thai Wikipedia): `https://github.com/cstorm125/thai2fit` 
+    * ft-wiki (Skip-Gram model trained on Wikipedia using fastText): `https://github.com/kobkrit/nlp_thai_resources#pre-trained-word-vectors`
+    * Kyu-ft and Kyu-w2v (Pre-trained word vectors of 30+ languages): `https://github.com/Kyubyong/wordvectors`
+    * fastText (Word vectors for 157 languages): `https://fasttext.cc/docs/en/crawl-vectors.html`
+    * BPEmb Thai models (Pre-trained subword embeddings in 275 languages):  `https://github.com/bheinzerling/bpemb`
 
 
 
