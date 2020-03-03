@@ -17,30 +17,27 @@ Then execute following commands to evaluate your own Thai word embedding file::
 
 The datasets were created by KMITL University, Ladkrabang, Thailand (Dr. Ponrudee Netisopakul) together with ITMO University, St. Petersburg, Russia (Dr. Gerhard Wohlgenannt,
 Aleksei Pulich).
-Please cite our work:
+Please cite our work::
 
     P. Netisopakul, G. Wohlgenannt and A. Pulich, Word Similarity Datasets for Thai: Construction and Evaluation, IEEE Access, 2019.
 
-        @article{DBLP:journals/access/NetisopakulWP19,
-          author    = {Ponrudee Netisopakul and
-                       Gerhard Wohlgenannt and
-                       Aleksei Pulich},
-          title     = {Word Similarity Datasets for Thai: Construction and Evaluation},
-          journal   = {{IEEE} Access},
-          volume    = {7},
-          pages     = {142907--142915},
-          year      = {2019},
-          url       = {https://doi.org/10.1109/ACCESS.2019.2944151},
-          doi       = {10.1109/ACCESS.2019.2944151},
-          timestamp = {Thu, 07 Nov 2019 09:19:00 +0100},
-          biburl    = {https://dblp.org/rec/journals/access/NetisopakulWP19.bib},
-          bibsource = {dblp computer science bibliography, https://dblp.org}
-        }
+    @article{DBLP:journals/access/NetisopakulWP19,
+      author    = {Ponrudee Netisopakul and Gerhard Wohlgenannt and Aleksei Pulich},
+      title     = {Word Similarity Datasets for Thai: Construction and Evaluation},
+      journal   = {{IEEE} Access},
+      volume    = {7},
+      pages     = {142907--142915},
+      year      = {2019},
+      url       = {https://doi.org/10.1109/ACCESS.2019.2944151},
+      doi       = {10.1109/ACCESS.2019.2944151},
+    }
 
     The preprint is found here: `https://arxiv.org/abs/1904.04307`.
 
 In the work mentioned about, we evaluate the following embeddings:
-* BPEmb Thai models:  `https://github.com/bheinzerling/bpemb`
+    *  BPEmb Thai models:  `https://github.com/bheinzerling/bpemb`
+    * ...
+
 
 
 Below please find the description of the original repository by **kudkudak**, which includes general info,
