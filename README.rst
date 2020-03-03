@@ -35,8 +35,11 @@ Please cite our work::
     The preprint is found here: `https://arxiv.org/abs/1904.04307`.
 
 In the work mentioned about, we evaluate the following embeddings:
-    *  BPEmb Thai models:  `https://github.com/bheinzerling/bpemb`
-    * ...
+    * Thai2vec: `https://github.com/cstorm125/thai2fit` 
+    * ft-wiki: `https://github.com/kobkrit/nlp_thai_resources#pre-trained-word-vectors`
+    * Kyu-ft and Kyu-w2v: `https://github.com/Kyubyong/wordvectors`
+    * fastText `https://fasttext.cc/docs/en/crawl-vectors.html`
+    * BPEmb Thai models:  `https://github.com/bheinzerling/bpemb`
 
 
 
