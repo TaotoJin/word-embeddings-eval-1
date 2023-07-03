@@ -93,10 +93,10 @@ def fetch_GloVe(dim=300, corpus="wiki-6B", normalize=True, lower=False, clean_wo
     Loading GloVe format can take a while
     """
     download_file = {
-            "wiki-6B": "http://nlp.stanford.edu/data/glove.6B.zip",
-            "common-crawl-42B": "http://nlp.stanford.edu/data/glove.42B.300d.zip",
-            "common-crawl-840B": "http://nlp.stanford.edu/data/glove.840B.300d.zip",
-            "twitter-27B": "http://nlp.stanford.edu/data/glove.twitter.27B.zip"
+            "wiki-6B": "https://huggingface.co/stanfordnlp/glove/resolve/main/glove.6B.zip",
+            "common-crawl-42B": "https://huggingface.co/stanfordnlp/glove/resolve/main/glove.42B.300d.zip",
+            "common-crawl-840B": "https://huggingface.co/stanfordnlp/glove/resolve/main/glove.840B.300d.zip",
+            "twitter-27B": "https://huggingface.co/stanfordnlp/glove/resolve/main/glove.twitter.27B.zip"
     }
 
     embedding_file = {
